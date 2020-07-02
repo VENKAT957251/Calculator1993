@@ -1,4 +1,6 @@
-package com.maths;
+package com.testexecution.java;
+
+import com.main.program.Calculator;
 
 public class PracticeJava extends Calculator{
 	

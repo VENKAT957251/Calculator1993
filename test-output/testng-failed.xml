@@ -3,11 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.maths.MathOpr">
+      <class name="com.testexecution.java.MathsDataprovider">
         <methods>
-          <include name="div"/>
+          <include name="Add" invocation-numbers="0 1 2"/>
+          <include name="division" invocation-numbers="0 1 2"/>
+          <include name="invert" invocation-numbers="0 1 2"/>
+          <include name="Sub" invocation-numbers="0 1 2"/>
         </methods>
-      </class> <!-- com.maths.MathOpr -->
+      </class> <!-- com.testexecution.java.MathsDataprovider -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
